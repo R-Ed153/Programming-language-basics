@@ -11,7 +11,7 @@ int main(){
   string input,result;
   cout << "Input a string to strip it of all punctuation: " << endl;
   cin >> input ;
-  for(int i = 0 ; i < input.size(); ++i){
+  for(string::size_type i = 0 ; i < input.size(); ++i){
     if(!ispunct(input[i])){
       result += input[i];
     }
