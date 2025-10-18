@@ -6,8 +6,6 @@ def numberOfTimesDivisibleBy2(n:int)->int:
     return counter
 
 
-
-
 if(__name__ == "__main__"):
     while True:
         userInput = int(input("Enter a positive number to find out how mainy times 2 can be divided from it: \n"))
