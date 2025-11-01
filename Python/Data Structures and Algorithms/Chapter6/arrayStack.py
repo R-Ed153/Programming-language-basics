@@ -1,3 +1,5 @@
+from utility import Empty
+
 class ArrayStack:
     def __init__(self):
         self._data = []
@@ -13,24 +15,33 @@ class ArrayStack:
 
     def top(self):
         if self.is_empty():
-            raise EmptyError('Stack is empty')
+            raise Empty('Stack is empty')
         return self._data[-1]
     
     def pop(self):
         if self.is_empty():
-            raise EmptyError('Stack is empty')
+            raise Empty('Stack is empty')
         return self._data.pop()
 
-class EmptyError(Exception):
-    def __init__(self,msg):
-        self.msg = msg
-        super().__init__(self.msg)
 
-    def __str__(self):
-        return f"Empty Error: {self.msg}"
-    
+def isMatched(expr):
+    lefty = '({['
+    righty = ']})'
+    S = ArrayStack()
+
+    for c in expr:
+        if c in lefty:
+            S.push(c)
+        elif c in righty:
+            if S.is_empty():
+                return False
+            if righty.index(c) != lefty.index(S.pop()):
+                return False
+    return S.is_empty()
+
+  
 
 if __name__ == "__main__":
     testStack = ArrayStack()
-    #testStack.push(1)
+    testStack.push(1)
     print(testStack.top())
