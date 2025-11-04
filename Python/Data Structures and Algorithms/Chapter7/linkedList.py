@@ -1,5 +1,4 @@
 from utility import Empty
-
 class LinkedStack:
     class _Node:
         __slots__ = '_element','_next'
