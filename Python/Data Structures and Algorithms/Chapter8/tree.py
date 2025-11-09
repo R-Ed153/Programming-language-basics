@@ -59,3 +59,29 @@ class Tree(ABC):
         if p is None:
             p = self.root()
         return self._height2(p)
+    
+    def __iter__(self):
+        for p in self.positions():
+            yield p.element()
+
+    def  preorder(self):
+        if not self.is_empty():
+            for p in self._subtree_preorder(self.root()):
+                yield p
+    
+    def _subtree_preorder(self,p):
+        yield p
+        for c in self.children(p):
+            for other in self._subtree_preorder(c):
+                yield other
+
+    def  postorder(self):
+        if not self.is_empty():
+            for p in self._subtree_preorder(self.root()):
+                yield p
+    
+    def _subtree_postorder(self,p):
+        for c in self.children(p):
+            for other in self._subtree_preorder(c):
+                yield other
+        yield p
