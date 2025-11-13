@@ -1,9 +1,20 @@
+import sys
+import os
+
+module_dir = os.path.abspath("Chapter7")
+
+sys.path.insert(0,module_dir)
+print(module_dir)
+
+from positionalList import PositionalList
 from priorityQueueBase import PriorityQueueBase
 from utility import Empty
+
 
 class SortedPriorityQueue(PriorityQueueBase):
     def __init__(self):
         self._data = PositionalList()
+        pass
 
     def __len__(self):
         return len(self._data)
@@ -19,14 +30,14 @@ class SortedPriorityQueue(PriorityQueueBase):
             self._data.add_after(walk,newest)
 
     def min(self):
-        if self.is_empty:
-            raise Empty('Priority queue is empty')
+        #if self.is_empty:
+            #raise Empty('Priority queue is empty')
         p = self._data.first()
         item = p.element()
         return (item._key,item._value)
     
     def remove_min(self):
-        if self.is_empty:
-            raise Empty('Priority queue is empty')
+        #if self.is_empty:
+            #raise Empty('Priority queue is empty')
         item = self._data.delete(self._data.first())
         return (item._key,item._value)
