@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Edmund Munene\\Documents\\Programming-language-basics\\C#\\Head Start C#\\Contacts\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA650AE-FB35-A319-A825-87724AE67A4D}|Contacts\\Contacts.csproj|c:\\users\\edmund munene\\documents\\programming-language-basics\\c#\\head start c#\\contacts\\contacts\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA650AE-FB35-A319-A825-87724AE67A4D}|Contacts\\Contacts.csproj|solutionrelative:contacts\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA650AE-FB35-A319-A825-87724AE67A4D}|Contacts\\Contacts.csproj|c:\\users\\edmund munene\\documents\\programming-language-basics\\c#\\head start c#\\contacts\\contacts\\another class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA650AE-FB35-A319-A825-87724AE67A4D}|Contacts\\Contacts.csproj|solutionrelative:contacts\\another class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA650AE-FB35-A319-A825-87724AE67A4D}|Contacts\\Contacts.csproj|c:\\users\\edmund munene\\documents\\programming-language-basics\\c#\\head start c#\\contacts\\contacts\\contacts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5FA650AE-FB35-A319-A825-87724AE67A4D}|Contacts\\Contacts.csproj|solutionrelative:contacts\\contacts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA650AE-FB35-A319-A825-87724AE67A4D}|Contacts\\Contacts.csproj|c:\\users\\edmund munene\\documents\\programming-language-basics\\c#\\head start c#\\contacts\\contacts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA650AE-FB35-A319-A825-87724AE67A4D}|Contacts\\Contacts.csproj|solutionrelative:contacts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA650AE-FB35-A319-A825-87724AE67A4D}|Contacts\\Contacts.csproj|C:\\Users\\Edmund Munene\\Documents\\Programming-language-basics\\C#\\Head Start C#\\Contacts\\contacts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5FA650AE-FB35-A319-A825-87724AE67A4D}|Contacts\\Contacts.csproj|solutionrelative:contacts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA650AE-FB35-A319-A825-87724AE67A4D}|Contacts\\Contacts.csproj|c:\\users\\edmund munene\\documents\\programming-language-basics\\c#\\head start c#\\contacts\\contacts\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA650AE-FB35-A319-A825-87724AE67A4D}|Contacts\\Contacts.csproj|solutionrelative:contacts\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA650AE-FB35-A319-A825-87724AE67A4D}|Contacts\\Contacts.csproj|c:\\users\\edmund munene\\documents\\programming-language-basics\\c#\\head start c#\\contacts\\contacts\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{5FA650AE-FB35-A319-A825-87724AE67A4D}|Contacts\\Contacts.csproj|solutionrelative:contacts\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Another Class.cs",
+              "DocumentMoniker": "C:\\Users\\Edmund Munene\\Documents\\Programming-language-basics\\C#\\Head Start C#\\Contacts\\Contacts\\Another Class.cs",
+              "RelativeDocumentMoniker": "Contacts\\Another Class.cs",
+              "ToolTip": "C:\\Users\\Edmund Munene\\Documents\\Programming-language-basics\\C#\\Head Start C#\\Contacts\\Contacts\\Another Class.cs",
+              "RelativeToolTip": "Contacts\\Another Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T08:59:15.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Edmund Munene\\Documents\\Programming-language-basics\\C#\\Head Start C#\\Contacts\\Contacts\\Program.cs",
+              "RelativeDocumentMoniker": "Contacts\\Program.cs",
+              "ToolTip": "C:\\Users\\Edmund Munene\\Documents\\Programming-language-basics\\C#\\Head Start C#\\Contacts\\Contacts\\Program.cs",
+              "RelativeToolTip": "Contacts\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T08:49:41.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Contacts.csproj",
+              "DocumentMoniker": "C:\\Users\\Edmund Munene\\Documents\\Programming-language-basics\\C#\\Head Start C#\\Contacts\\Contacts\\Contacts.csproj",
+              "RelativeDocumentMoniker": "Contacts\\Contacts.csproj",
+              "ToolTip": "C:\\Users\\Edmund Munene\\Documents\\Programming-language-basics\\C#\\Head Start C#\\Contacts\\Contacts\\Contacts.csproj",
+              "RelativeToolTip": "Contacts\\Contacts.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-04T08:51:25.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Edmund Munene\\Documents\\Programming-language-basics\\C#\\Head Start C#\\Contacts\\Contacts\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Contacts\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Edmund Munene\\Documents\\Programming-language-basics\\C#\\Head Start C#\\Contacts\\Contacts\\Form1.Designer.cs",
+              "RelativeToolTip": "Contacts\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T07:19:41.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Edmund Munene\\Documents\\Programming-language-basics\\C#\\Head Start C#\\Contacts\\Contacts\\Form1.cs",
+              "RelativeDocumentMoniker": "Contacts\\Form1.cs",
+              "ToolTip": "C:\\Users\\Edmund Munene\\Documents\\Programming-language-basics\\C#\\Head Start C#\\Contacts\\Contacts\\Form1.cs",
+              "RelativeToolTip": "Contacts\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T07:52:11.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\Edmund Munene\\Documents\\Programming-language-basics\\C#\\Head Start C#\\Contacts\\Contacts\\Form1.resx",
+              "RelativeDocumentMoniker": "Contacts\\Form1.resx",
+              "ToolTip": "C:\\Users\\Edmund Munene\\Documents\\Programming-language-basics\\C#\\Head Start C#\\Contacts\\Contacts\\Form1.resx",
+              "RelativeToolTip": "Contacts\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-04-04T07:50:00.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Edmund Munene\\Documents\\Programming-language-basics\\C#\\Head Start C#\\Contacts\\Contacts\\Form1.cs",
+              "RelativeDocumentMoniker": "Contacts\\Form1.cs",
+              "ToolTip": "C:\\Users\\Edmund Munene\\Documents\\Programming-language-basics\\C#\\Head Start C#\\Contacts\\Contacts\\Form1.cs [Design]",
+              "RelativeToolTip": "Contacts\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T10:07:34.835Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

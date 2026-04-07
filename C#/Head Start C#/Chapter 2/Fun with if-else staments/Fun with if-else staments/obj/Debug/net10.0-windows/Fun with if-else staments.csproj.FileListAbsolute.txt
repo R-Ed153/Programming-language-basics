@@ -1,0 +1,17 @@
+C:\Users\Edmund Munene\Documents\Programming-language-basics\C#\Head Start C#\Fun with if-else staments\Fun with if-else staments\bin\Debug\net10.0-windows\Fun with if-else staments.exe
+C:\Users\Edmund Munene\Documents\Programming-language-basics\C#\Head Start C#\Fun with if-else staments\Fun with if-else staments\bin\Debug\net10.0-windows\Fun with if-else staments.deps.json
+C:\Users\Edmund Munene\Documents\Programming-language-basics\C#\Head Start C#\Fun with if-else staments\Fun with if-else staments\bin\Debug\net10.0-windows\Fun with if-else staments.runtimeconfig.json
+C:\Users\Edmund Munene\Documents\Programming-language-basics\C#\Head Start C#\Fun with if-else staments\Fun with if-else staments\bin\Debug\net10.0-windows\Fun with if-else staments.dll
+C:\Users\Edmund Munene\Documents\Programming-language-basics\C#\Head Start C#\Fun with if-else staments\Fun with if-else staments\bin\Debug\net10.0-windows\Fun with if-else staments.pdb
+C:\Users\Edmund Munene\Documents\Programming-language-basics\C#\Head Start C#\Fun with if-else staments\Fun with if-else staments\obj\Debug\net10.0-windows\Fun_with_if_else_staments.Form1.resources
+C:\Users\Edmund Munene\Documents\Programming-language-basics\C#\Head Start C#\Fun with if-else staments\Fun with if-else staments\obj\Debug\net10.0-windows\Fun with if-else staments.csproj.GenerateResource.cache
+C:\Users\Edmund Munene\Documents\Programming-language-basics\C#\Head Start C#\Fun with if-else staments\Fun with if-else staments\obj\Debug\net10.0-windows\Fun with if-else staments.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edmund Munene\Documents\Programming-language-basics\C#\Head Start C#\Fun with if-else staments\Fun with if-else staments\obj\Debug\net10.0-windows\Fun with if-else staments.AssemblyInfoInputs.cache
+C:\Users\Edmund Munene\Documents\Programming-language-basics\C#\Head Start C#\Fun with if-else staments\Fun with if-else staments\obj\Debug\net10.0-windows\Fun with if-else staments.AssemblyInfo.cs
+C:\Users\Edmund Munene\Documents\Programming-language-basics\C#\Head Start C#\Fun with if-else staments\Fun with if-else staments\obj\Debug\net10.0-windows\Fun with if-else staments.csproj.CoreCompileInputs.cache
+C:\Users\Edmund Munene\Documents\Programming-language-basics\C#\Head Start C#\Fun with if-else staments\Fun with if-else staments\obj\Debug\net10.0-windows\Fun with if-else staments.sourcelink.json
+C:\Users\Edmund Munene\Documents\Programming-language-basics\C#\Head Start C#\Fun with if-else staments\Fun with if-else staments\obj\Debug\net10.0-windows\Fun with if-else staments.dll
+C:\Users\Edmund Munene\Documents\Programming-language-basics\C#\Head Start C#\Fun with if-else staments\Fun with if-else staments\obj\Debug\net10.0-windows\refint\Fun with if-else staments.dll
+C:\Users\Edmund Munene\Documents\Programming-language-basics\C#\Head Start C#\Fun with if-else staments\Fun with if-else staments\obj\Debug\net10.0-windows\Fun with if-else staments.pdb
+C:\Users\Edmund Munene\Documents\Programming-language-basics\C#\Head Start C#\Fun with if-else staments\Fun with if-else staments\obj\Debug\net10.0-windows\Fun with if-else staments.genruntimeconfig.cache
+C:\Users\Edmund Munene\Documents\Programming-language-basics\C#\Head Start C#\Fun with if-else staments\Fun with if-else staments\obj\Debug\net10.0-windows\ref\Fun with if-else staments.dll
