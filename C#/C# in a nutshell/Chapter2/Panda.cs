@@ -21,6 +21,6 @@ public class Panda
     public Panda(string n)
     {
         Name = n;
-        Population = Population + 1;
+        Population++;
     }
 }
