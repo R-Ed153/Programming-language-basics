@@ -1,22 +1,48 @@
-import urllib.request
 import os
-from pathlib import Path
 from dotenv import load_dotenv,find_dotenv 
+import requests
+import time
 
 load_dotenv(find_dotenv())
 
 PEXEL_API_KEY = os.getenv("PEXEL_API_KEY")
+image_url = "https://api.pexels.com/v1/"
+image_folder = "Chapter1/temp/sequential"
+#headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",}
 
 
-def downloadImage(imagePath, fileName):
-    print("Downloading Image from ", imagePath)
-    urllib.request.urlretrieve(imagePath, fileName)
+def saveImages(query, per_page=15):
+    headers = {"Authorization": PEXEL_API_KEY}
+    params = {"query": query, "per_page": per_page}
+    response = requests.get(f"{image_url}search",headers=headers, params = params )
+    if response.status_code == 200:
+        data = response.json()
+        for i,photo in enumerate(data['photos']):
+            downloadImage(photo,i)            
+    else:
+        print('Error:',response.status_code)
+
+def downloadImage(photo,index):
+    url = photo['src']['original']
+    print(url)        
+    response = requests.get(url)
+    if response.status_code == 200:
+        filepath = f"{image_folder}/image-{index+1}.jpg"
+        with open(filepath,"wb") as f:
+            f.write(response.content)
+            print(f"Saved: {filepath}")
+    else:
+        print(F"Error downloading image {index + 1}",response.stat)
+
+
 
 def main():
-    for i in range(10):
-        imageName = f"temp/image-{i}.jpg"
-        downloadImage("https://pexels.com",imageName)
-
+    t0 = time.time()
+    saveImages("Nature",10)
+    t1 = time.time()
+    timeElapsed = t1 - t0
+    print(f"Total Execution Time: {timeElapsed}")
+            
 if __name__ == "__main__":
-    #main() 
-    print(PEXEL_API_KEY)
+    main() 
+    
