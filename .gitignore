@@ -1,8 +1,8 @@
 .env
 Linux/Python/myenv
-Linux/Robotics/A Concise Introduction to Robot Programming with ROS2/build
-Linux/Robotics/A Concise Introduction to Robot Programming with ROS2/install
-Linux/Robotics/A Concise Introduction to Robot Programming with ROS2/log
-Linux/Robotics/A Concise Introduction to Robot Programming with ROS2/src/book_ros2
-Linux/Robotics/A Concise Introduction to Robot Programming with ROS2/src/ThirdParty
+Linux/Robotics/A Concise Introduction to Robot Programming with ROS2/bookros2_ws/build
+Linux/Robotics/A Concise Introduction to Robot Programming with ROS2/bookros2_ws/install
+Linux/Robotics/A Concise Introduction to Robot Programming with ROS2/bookros2_ws/log
+Linux/Robotics/A Concise Introduction to Robot Programming with ROS2/bookros2_ws/src/book_ros2
+Linux/Robotics/A Concise Introduction to Robot Programming with ROS2/bookros2_ws/src/ThirdParty
 Linux/GPU Programming/CUDA-by-Example/solutionFiles
