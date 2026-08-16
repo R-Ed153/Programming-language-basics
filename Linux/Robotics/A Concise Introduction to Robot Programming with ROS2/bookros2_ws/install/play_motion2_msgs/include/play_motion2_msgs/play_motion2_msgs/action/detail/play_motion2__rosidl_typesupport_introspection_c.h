@@ -1,1 +1,0 @@
-/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/play_motion2_msgs/rosidl_typesupport_introspection_c/play_motion2_msgs/action/detail/play_motion2__rosidl_typesupport_introspection_c.h

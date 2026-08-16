@@ -1,1 +1,0 @@
-/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/omni_base_description/ament_cmake_environment_hooks/local_setup.bash

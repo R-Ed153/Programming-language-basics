@@ -1,1 +1,0 @@
-/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/play_motion2_msgs/rosidl_generator_rs/play_motion2_msgs/rust/src/msg/rmw.rs

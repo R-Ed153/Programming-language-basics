@@ -1,1 +1,0 @@
-/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/pal_urdf_utils/ament_cmake_core/pal_urdf_utilsConfig-version.cmake

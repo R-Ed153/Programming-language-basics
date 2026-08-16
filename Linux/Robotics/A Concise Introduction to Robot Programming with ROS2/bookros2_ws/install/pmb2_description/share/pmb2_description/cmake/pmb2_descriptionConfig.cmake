@@ -1,1 +1,0 @@
-/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/pmb2_description/ament_cmake_core/pmb2_descriptionConfig.cmake

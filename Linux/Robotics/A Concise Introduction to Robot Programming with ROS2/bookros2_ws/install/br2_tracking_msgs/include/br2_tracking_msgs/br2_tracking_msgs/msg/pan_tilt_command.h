@@ -1,1 +1,0 @@
-/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_tracking_msgs/rosidl_generator_c/br2_tracking_msgs/msg/pan_tilt_command.h

@@ -1,1 +1,0 @@
-/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/yaets/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

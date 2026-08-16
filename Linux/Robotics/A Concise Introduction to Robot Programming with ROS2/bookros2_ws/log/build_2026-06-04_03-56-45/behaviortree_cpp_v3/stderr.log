@@ -1,8 +1,0 @@
-[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/BehaviorTree.CPP/tools/bt_recorder.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
-[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/BehaviorTree.CPP/tools/bt_recorder.cpp:65:28:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kzmq::recv_result_t zmq::detail::socket_base::[01;32m[Krecv[m[K(zmq::message_t&, zmq::recv_flags)[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
-   65 |             [01;35m[Ksubscriber.recv(update, zmq::recv_flags::none)[m[K;
-      |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-In file included from [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/BehaviorTree.CPP/tools/bt_recorder.cpp:6[m[K:
-[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/BehaviorTree.CPP/3rdparty/cppzmq/zmq.hpp:1957:19:[m[K [01;36m[Knote: [m[Kdeclared here
- 1957 |     recv_result_t [01;36m[Krecv[m[K(message_t &msg, recv_flags flags = recv_flags::none)
-      |                   [01;36m[K^~~~[m[K

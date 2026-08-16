@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o -o bt3_recorder  -Wl,-rpath,/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/behaviortree_cpp_v3:/opt/ros/jazzy/lib ../libbehaviortree_cpp_v3.so /usr/lib/x86_64-linux-gnu/libzmq.so -ldl -Wl,-rpath-link,/opt/ros/jazzy/lib 
