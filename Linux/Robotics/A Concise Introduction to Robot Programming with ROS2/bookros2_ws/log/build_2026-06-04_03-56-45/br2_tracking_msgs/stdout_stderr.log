@@ -1,0 +1,210 @@
+[33mCMake Warning (dev) at CMakeLists.txt:1 (project):
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (14.5s)
+-- Generating done (0.3s)
+-- Build files have been written to: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_tracking_msgs
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_symlink_br2_tracking_msgs
+[  5%] Built target br2_tracking_msgs__rosidl_generator_type_description
+[  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 11%] Built target br2_tracking_msgs__rs
+running egg_info
+creating br2_tracking_msgs.egg-info
+writing br2_tracking_msgs.egg-info/PKG-INFO
+writing dependency_links to br2_tracking_msgs.egg-info/dependency_links.txt
+writing top-level names to br2_tracking_msgs.egg-info/top_level.txt
+writing manifest file 'br2_tracking_msgs.egg-info/SOURCES.txt'
+reading manifest file 'br2_tracking_msgs.egg-info/SOURCES.txt'
+writing manifest file 'br2_tracking_msgs.egg-info/SOURCES.txt'
+[ 11%] Built target ament_cmake_python_build_br2_tracking_msgs_egg
+[ 11%] Built target br2_tracking_msgs__cpp
+[ 14%] [32mBuilding C object CMakeFiles/br2_tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/br2_tracking_msgs/msg/detail/pan_tilt_command__type_support.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/br2_tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/br2_tracking_msgs/msg/detail/pan_tilt_command__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/br2_tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/br2_tracking_msgs/msg/detail/pan_tilt_command__functions.c.o[0m
+[ 22%] [32m[1mLinking C shared library libbr2_tracking_msgs__rosidl_generator_c.so[0m
+[ 22%] Built target br2_tracking_msgs__rosidl_generator_c
+[ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 34%] [32mBuilding C object CMakeFiles/br2_tracking_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/br2_tracking_msgs/msg/detail/pan_tilt_command__type_support.c.o[0m
+[ 37%] [32m[1mLinking C shared library libbr2_tracking_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 37%] Built target br2_tracking_msgs__rosidl_typesupport_introspection_c
+[ 40%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 42%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/br2_tracking_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/br2_tracking_msgs/msg/detail/pan_tilt_command__type_support_c.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/br2_tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/br2_tracking_msgs/msg/detail/dds_fastrtps/pan_tilt_command__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/br2_tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/br2_tracking_msgs/msg/pan_tilt_command__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/br2_tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/br2_tracking_msgs/msg/detail/pan_tilt_command__type_support.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library libbr2_tracking_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 57%] Built target br2_tracking_msgs__rosidl_typesupport_fastrtps_c
+[ 60%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 62%] [32m[1mLinking CXX shared library libbr2_tracking_msgs__rosidl_typesupport_cpp.so[0m
+[ 65%] [32m[1mLinking CXX shared library libbr2_tracking_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 65%] Built target br2_tracking_msgs__rosidl_typesupport_cpp
+[ 65%] Built target br2_tracking_msgs__rosidl_typesupport_fastrtps_cpp
+[ 68%] [32mBuilding CXX object CMakeFiles/br2_tracking_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/br2_tracking_msgs/msg/pan_tilt_command__type_support.cpp.o[0m
+[ 71%] [32m[1mLinking CXX shared library libbr2_tracking_msgs__rosidl_typesupport_c.so[0m
+[ 74%] [32m[1mLinking CXX shared library libbr2_tracking_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 74%] Built target br2_tracking_msgs__rosidl_typesupport_c
+[ 74%] Built target br2_tracking_msgs__rosidl_typesupport_introspection_cpp
+[ 74%] Built target br2_tracking_msgs
+[ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 77%] Built target br2_tracking_msgs__py
+[ 80%] [32mBuilding C object CMakeFiles/br2_tracking_msgs__rosidl_generator_py.dir/rosidl_generator_py/br2_tracking_msgs/msg/_pan_tilt_command_s.c.o[0m
+[ 82%] [32m[1mLinking C shared library libbr2_tracking_msgs__rosidl_generator_py.so[0m
+[ 82%] Built target br2_tracking_msgs__rosidl_generator_py
+[ 85%] [32mBuilding C object CMakeFiles/br2_tracking_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/br2_tracking_msgs/_br2_tracking_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 88%] [32m[1mLinking C shared module rosidl_generator_py/br2_tracking_msgs/br2_tracking_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 88%] Built target br2_tracking_msgs_s__rosidl_typesupport_fastrtps_c
+[ 91%] [32mBuilding C object CMakeFiles/br2_tracking_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/br2_tracking_msgs/_br2_tracking_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 94%] [32m[1mLinking C shared module rosidl_generator_py/br2_tracking_msgs/br2_tracking_msgs_s__rosidl_typesupport_c.so[0m
+[ 94%] Built target br2_tracking_msgs_s__rosidl_typesupport_c
+[ 97%] [32mBuilding C object CMakeFiles/br2_tracking_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/br2_tracking_msgs/_br2_tracking_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/br2_tracking_msgs/br2_tracking_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[100%] Built target br2_tracking_msgs_s__rosidl_typesupport_introspection_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/ament_index/resource_index/rosidl_interfaces/br2_tracking_msgs
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/msg/PanTiltCommand.json
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__functions.h
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__struct.h
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__type_support.h
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/pan_tilt_command.h
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/environment/library_path.sh
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/environment/library_path.dsv
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__builder.hpp
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__struct.hpp
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__traits.hpp
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__type_support.hpp
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/pan_tilt_command.hpp
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/environment/pythonpath.sh
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/environment/pythonpath.dsv
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs-0.2.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs-0.2.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs-0.2.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs-0.2.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs/__init__.py
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs/_br2_tracking_msgs_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs/_br2_tracking_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs/_br2_tracking_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs/br2_tracking_msgs_s__rosidl_typesupport_c.so
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs/br2_tracking_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs/br2_tracking_msgs_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs/msg/__init__.py
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs/msg/_pan_tilt_command.py
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs/msg/_pan_tilt_command_s.c
+-- Up-to-date symlink: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs/br2_tracking_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs/br2_tracking_msgs_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs/br2_tracking_msgs_s__rosidl_typesupport_c.so
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/ament_index/resource_index/rust_packages/br2_tracking_msgs
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/rust/Cargo.toml
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/rust/build.rs
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/rust/src/lib.rs
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/rust/src/msg.rs
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/rust/src/msg/rmw.rs
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/msg/PanTiltCommand.idl
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/msg/PanTiltCommand.msg
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/ament_index/resource_index/package_run_dependencies/br2_tracking_msgs
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/ament_index/resource_index/parent_prefix_path/br2_tracking_msgs
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/environment/path.sh
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/environment/path.dsv
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/local_setup.bash
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/local_setup.sh
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/local_setup.zsh
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/local_setup.dsv
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/package.dsv
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/ament_index/resource_index/packages/br2_tracking_msgs
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgsConfig.cmake
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgsConfig-version.cmake
+-- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/package.xml
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_generator_c.so" to ""
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_cpp.so" to ""
+Listing '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs'...
+Compiling '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs/__init__.py'...
+Listing '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs/msg'...
+Compiling '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs/msg/__init__.py'...
+Compiling '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/python3.12/site-packages/br2_tracking_msgs/msg/_pan_tilt_command.py'...
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_generator_pyExport-noconfig.cmake

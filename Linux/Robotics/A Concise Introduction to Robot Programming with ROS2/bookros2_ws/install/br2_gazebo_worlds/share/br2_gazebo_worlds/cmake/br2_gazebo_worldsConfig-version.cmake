@@ -1,0 +1,1 @@
+/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_gazebo_worlds/ament_cmake_core/br2_gazebo_worldsConfig-version.cmake

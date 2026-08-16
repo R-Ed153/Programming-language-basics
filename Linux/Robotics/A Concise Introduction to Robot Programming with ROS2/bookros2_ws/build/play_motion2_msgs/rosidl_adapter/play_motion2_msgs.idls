@@ -1,0 +1,7 @@
+/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/play_motion2_msgs/rosidl_adapter/play_motion2_msgs:action/PlayMotion2.idl
+/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/play_motion2_msgs/rosidl_adapter/play_motion2_msgs:msg/Motion.idl
+/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/play_motion2_msgs/rosidl_adapter/play_motion2_msgs:srv/AddMotion.idl
+/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/play_motion2_msgs/rosidl_adapter/play_motion2_msgs:srv/GetMotionInfo.idl
+/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/play_motion2_msgs/rosidl_adapter/play_motion2_msgs:srv/IsMotionReady.idl
+/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/play_motion2_msgs/rosidl_adapter/play_motion2_msgs:srv/ListMotions.idl
+/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/play_motion2_msgs/rosidl_adapter/play_motion2_msgs:srv/RemoveMotion.idl

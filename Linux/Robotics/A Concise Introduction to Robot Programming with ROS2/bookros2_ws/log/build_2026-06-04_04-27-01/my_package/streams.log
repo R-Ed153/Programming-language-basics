@@ -1,0 +1,13 @@
+[0.225s] Invoking command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/my_package -- -j12 -l12
+[0.530s] [ 50%] [32mBuilding CXX object CMakeFiles/simple.dir/src/simple.cpp.o[0m
+[3.683s] [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/my_package/src/simple.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[3.683s] [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/my_package/src/simple.cpp:5:15:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Krclcpp[m[K’
+[3.683s]     5 |     auto node [01;31m[Krclcpp[m[K::Node::make_shared("simple_node");
+[3.683s]       |               [01;31m[K^~~~~~[m[K
+[3.688s] [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/my_package/src/simple.cpp:6:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[3.688s]     6 |     rclcpp::spin([01;31m[Knode[m[K);
+[3.688s]       |                  [01;31m[K^~~~[m[K
+[4.417s] gmake[2]: *** [CMakeFiles/simple.dir/build.make:76: CMakeFiles/simple.dir/src/simple.cpp.o] Error 1
+[4.417s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple.dir/all] Error 2
+[4.417s] gmake: *** [Makefile:146: all] Error 2
+[4.420s] Invoked command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/my_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/my_package -- -j12 -l12

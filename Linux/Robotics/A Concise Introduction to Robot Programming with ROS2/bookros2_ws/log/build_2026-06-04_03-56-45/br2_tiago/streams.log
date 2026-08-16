@@ -1,0 +1,42 @@
+[0.031s] Invoking command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_tiago': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/book_ros2/br2_tiago -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago
+[1.082s] -- The C compiler identification is GNU 13.3.0
+[1.083s] -- The CXX compiler identification is GNU 13.3.0
+[1.083s] -- Detecting C compiler ABI info
+[1.394s] -- Detecting C compiler ABI info - done
+[1.457s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.457s] -- Detecting C compile features
+[1.458s] -- Detecting C compile features - done
+[1.530s] -- Detecting CXX compiler ABI info
+[2.118s] -- Detecting CXX compiler ABI info - done
+[2.214s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.215s] -- Detecting CXX compile features
+[2.216s] -- Detecting CXX compile features - done
+[2.252s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.011s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.212s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.646s] -- Configuring done (3.6s)
+[3.655s] -- Generating done (0.0s)
+[3.661s] -- Build files have been written to: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_tiago
+[3.682s] Invoked command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_tiago' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/book_ros2/br2_tiago -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago
+[3.684s] Invoking command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_tiago': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_tiago -- -j12 -l12
+[4.614s] Invoked command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_tiago' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_tiago -- -j12 -l12
+[4.615s] Invoking command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_tiago': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_tiago
+[6.714s] -- Install configuration: ""
+[6.714s] -- Execute custom install script
+[6.714s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago/share/br2_tiago/launch/sim.launch.py
+[6.715s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago/share/ament_index/resource_index/package_run_dependencies/br2_tiago
+[6.715s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago/share/ament_index/resource_index/parent_prefix_path/br2_tiago
+[6.715s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago/share/br2_tiago/environment/ament_prefix_path.sh
+[6.715s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago/share/br2_tiago/environment/ament_prefix_path.dsv
+[6.715s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago/share/br2_tiago/environment/path.sh
+[6.715s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago/share/br2_tiago/environment/path.dsv
+[6.715s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago/share/br2_tiago/local_setup.bash
+[6.715s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago/share/br2_tiago/local_setup.sh
+[6.715s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago/share/br2_tiago/local_setup.zsh
+[6.716s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago/share/br2_tiago/local_setup.dsv
+[6.716s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago/share/br2_tiago/package.dsv
+[6.716s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago/share/ament_index/resource_index/packages/br2_tiago
+[6.731s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago/share/br2_tiago/cmake/br2_tiagoConfig.cmake
+[6.732s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago/share/br2_tiago/cmake/br2_tiagoConfig-version.cmake
+[6.732s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_tiago/share/br2_tiago/package.xml
+[6.733s] Invoked command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_tiago' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_tiago

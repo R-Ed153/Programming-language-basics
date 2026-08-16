@@ -1,0 +1,1 @@
+/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/omni_base_controller_configuration/ament_cmake_environment_hooks/local_setup.zsh

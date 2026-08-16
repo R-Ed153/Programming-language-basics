@@ -1,0 +1,10 @@
+{
+  "package_name": "br2_tracking_msgs",
+  "output_dir": "/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_tracking_msgs/rosidl_generator_type_description/br2_tracking_msgs",
+  "idl_tuples": [
+    "/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_tracking_msgs/rosidl_adapter/br2_tracking_msgs:msg/PanTiltCommand.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

@@ -1,0 +1,101 @@
+[0.050s] Invoking command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/book_ros2/br2_basics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics
+[4.272s] -- The C compiler identification is GNU 13.3.0
+[4.273s] -- The CXX compiler identification is GNU 13.3.0
+[4.273s] -- Detecting C compiler ABI info
+[4.273s] -- Detecting C compiler ABI info - done
+[4.273s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.273s] -- Detecting C compile features
+[4.273s] -- Detecting C compile features - done
+[4.273s] -- Detecting CXX compiler ABI info
+[4.273s] -- Detecting CXX compiler ABI info - done
+[4.274s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.274s] -- Detecting CXX compile features
+[4.274s] -- Detecting CXX compile features - done
+[4.274s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.274s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.274s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.274s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.274s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.275s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.275s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.275s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.353s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.395s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.966s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.075s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.253s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.963s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[6.075s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.689s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.695s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.695s] -- Configured cppcheck include dirs: 
+[6.696s] -- Configured cppcheck exclude dirs and/or files: 
+[6.700s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.700s] -- Configured cpplint exclude dirs and/or files: 
+[6.702s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.703s] -- Configured 'flake8' exclude dirs and/or files: 
+[6.711s] -- Added test 'lint_cmake' to check CMake code style
+[6.711s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.714s] -- Added test 'uncrustify' to check C / C++ code style
+[6.714s] -- Configured uncrustify additional arguments: 
+[6.718s] -- Added test 'xmllint' to check XML markup files
+[6.726s] -- Configuring done (6.7s)
+[6.818s] -- Generating done (0.1s)
+[6.846s] -- Build files have been written to: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_basics
+[7.174s] Invoked command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/book_ros2/br2_basics -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics
+[7.175s] Invoking command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_basics -- -j12 -l12
+[8.779s] [  7%] [32mBuilding CXX object CMakeFiles/executors.dir/src/executors.cpp.o[0m
+[8.779s] [ 14%] [32mBuilding CXX object CMakeFiles/subscriber_class.dir/src/subscriber_class.cpp.o[0m
+[8.779s] [ 21%] [32mBuilding CXX object CMakeFiles/publisher_class.dir/src/publisher_class.cpp.o[0m
+[8.779s] [ 28%] [32mBuilding CXX object CMakeFiles/logger.dir/src/logger.cpp.o[0m
+[8.779s] [ 35%] [32mBuilding CXX object CMakeFiles/logger_class.dir/src/logger_class.cpp.o[0m
+[8.779s] [ 42%] [32mBuilding CXX object CMakeFiles/param_reader.dir/src/param_reader.cpp.o[0m
+[8.779s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[19.373s] [ 57%] [32m[1mLinking CXX executable logger_class[0m
+[20.242s] [ 57%] Built target logger_class
+[21.452s] [ 64%] [32m[1mLinking CXX executable logger[0m
+[22.152s] [ 64%] Built target logger
+[24.995s] [ 71%] [32m[1mLinking CXX executable param_reader[0m
+[25.473s] [ 71%] Built target param_reader
+[28.061s] [ 78%] [32m[1mLinking CXX executable publisher[0m
+[28.497s] [ 78%] Built target publisher
+[28.825s] [ 85%] [32m[1mLinking CXX executable publisher_class[0m
+[29.354s] [ 85%] Built target publisher_class
+[32.275s] [ 92%] [32m[1mLinking CXX executable executors[0m
+[32.971s] [ 92%] Built target executors
+[33.563s] [100%] [32m[1mLinking CXX executable subscriber_class[0m
+[34.085s] [100%] Built target subscriber_class
+[34.115s] Invoked command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_basics -- -j12 -l12
+[34.116s] Invoking command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_basics
+[35.940s] -- Install configuration: ""
+[35.940s] -- Execute custom install script
+[35.940s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/lib/br2_basics/publisher
+[35.941s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/lib/br2_basics/publisher_class
+[35.941s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/lib/br2_basics/subscriber_class
+[35.941s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/lib/br2_basics/executors
+[35.941s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/lib/br2_basics/logger
+[35.941s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/lib/br2_basics/logger_class
+[35.941s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/lib/br2_basics/param_reader
+[35.941s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/launch/includer_launch.py
+[35.941s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/launch/param_node_v1_launch.py
+[35.941s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/launch/param_node_v2_launch.py
+[35.942s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/launch/pub_sub_v1_launch.py
+[35.942s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/launch/pub_sub_v2_launch.py
+[35.942s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/config/params.yaml
+[35.942s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/ament_index/resource_index/package_run_dependencies/br2_basics
+[35.942s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/ament_index/resource_index/parent_prefix_path/br2_basics
+[35.942s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/environment/ament_prefix_path.sh
+[35.942s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/environment/ament_prefix_path.dsv
+[35.942s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/environment/path.sh
+[35.945s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/environment/path.dsv
+[35.945s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/local_setup.bash
+[35.945s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/local_setup.sh
+[35.945s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/local_setup.zsh
+[35.947s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/local_setup.dsv
+[35.948s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/package.dsv
+[35.948s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/ament_index/resource_index/packages/br2_basics
+[35.948s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.948s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/cmake/br2_basicsConfig.cmake
+[35.948s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/cmake/br2_basicsConfig-version.cmake
+[35.948s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/br2_basics/share/br2_basics/package.xml
+[35.971s] Invoked command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/br2_basics

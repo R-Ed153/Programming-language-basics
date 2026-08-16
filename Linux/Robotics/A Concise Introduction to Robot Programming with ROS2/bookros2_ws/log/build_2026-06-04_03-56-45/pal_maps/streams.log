@@ -1,0 +1,73 @@
+[0.396s] Invoking command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/pal_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/pal_maps -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps
+[0.546s] -- The C compiler identification is GNU 13.3.0
+[0.697s] -- The CXX compiler identification is GNU 13.3.0
+[0.726s] -- Detecting C compiler ABI info
+[0.940s] -- Detecting C compiler ABI info - done
+[0.967s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.967s] -- Detecting C compile features
+[0.967s] -- Detecting C compile features - done
+[0.995s] -- Detecting CXX compiler ABI info
+[1.220s] -- Detecting CXX compiler ABI info - done
+[1.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.259s] -- Detecting CXX compile features
+[1.260s] -- Detecting CXX compile features - done
+[1.270s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[1.624s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.787s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.079s] -- Configuring done (1.7s)
+[2.093s] -- Generating done (0.0s)
+[2.097s] -- Build files have been written to: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/pal_maps
+[2.112s] Invoked command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/pal_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/pal_maps -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps
+[2.116s] Invoking command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/pal_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/pal_maps -- -j12 -l12
+[2.232s] Invoked command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/pal_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/pal_maps -- -j12 -l12
+[2.251s] Invoking command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/pal_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/pal_maps
+[2.309s] -- Install configuration: ""
+[2.309s] -- Execute custom install script
+[2.309s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/corridor_110cm/map.pgm
+[2.309s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/corridor_110cm/map.yaml
+[2.310s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/corridor_85cm/map.pgm
+[2.316s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/corridor_85cm/map.yaml
+[2.336s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/corridor_95cm/map.pgm
+[2.357s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/corridor_95cm/map.yaml
+[2.374s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/dynamic_obstacle_avoidance_world/map.pgm
+[2.404s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/dynamic_obstacle_avoidance_world/map.yaml
+[2.410s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/home/map.pgm
+[2.423s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/home/map.yaml
+[2.447s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/hospital/map.pgm
+[2.464s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/hospital/map.yaml
+[2.479s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/hospital_with_aruco/map.pgm
+[2.496s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/hospital_with_aruco/map.yaml
+[2.512s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/navigation_gym/map.pgm
+[2.528s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/navigation_gym/map.yaml
+[2.540s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/obstacle_avoidance_world/map.pgm
+[2.557s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/obstacle_avoidance_world/map.yaml
+[2.573s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/pal_office/map.pgm
+[2.591s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/pal_office/map.yaml
+[2.608s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/pal_office_7th_floor/map.pgm
+[2.623s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/pal_office_7th_floor/map.yaml
+[2.638s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/roscon_es_25/map.pgm
+[2.651s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/roscon_es_25/map.yaml
+[2.678s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/small_house/map.pgm
+[2.683s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/small_house/map.yaml
+[2.705s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/small_office/map.pgm
+[2.718s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/small_office/map.yaml
+[2.742s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/small_warehouse/map.pgm
+[2.774s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/small_warehouse/map.yaml
+[2.795s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/willow_garage/map.pgm
+[2.821s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/maps/willow_garage/map.yaml
+[2.853s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/ament_index/resource_index/package_run_dependencies/pal_maps
+[2.872s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/ament_index/resource_index/parent_prefix_path/pal_maps
+[2.890s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/environment/ament_prefix_path.sh
+[2.914s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/environment/ament_prefix_path.dsv
+[2.947s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/environment/path.sh
+[2.982s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/environment/path.dsv
+[3.019s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/local_setup.bash
+[3.060s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/local_setup.sh
+[3.121s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/local_setup.zsh
+[3.169s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/local_setup.dsv
+[3.250s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/package.dsv
+[3.293s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/ament_index/resource_index/packages/pal_maps
+[3.329s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/cmake/pal_mapsConfig.cmake
+[3.353s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/cmake/pal_mapsConfig-version.cmake
+[3.393s] -- Symlinking: /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/install/pal_maps/share/pal_maps/package.xml
+[3.548s] Invoked command in '/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/pal_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/build/pal_maps

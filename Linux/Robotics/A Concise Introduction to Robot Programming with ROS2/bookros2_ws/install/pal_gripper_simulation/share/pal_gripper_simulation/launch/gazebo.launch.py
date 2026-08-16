@@ -1,0 +1,1 @@
+/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/pal_gripper/pal_gripper_simulation/launch/gazebo.launch.py

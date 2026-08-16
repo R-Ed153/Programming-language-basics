@@ -1,0 +1,4 @@
+source;share/yaets/local_setup.bash
+source;share/yaets/local_setup.dsv
+source;share/yaets/local_setup.sh
+source;share/yaets/local_setup.zsh

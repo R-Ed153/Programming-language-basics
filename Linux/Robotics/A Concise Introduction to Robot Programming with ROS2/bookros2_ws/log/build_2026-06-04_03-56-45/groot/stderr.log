@@ -1,0 +1,113 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[0mCMake Deprecation Warning at QtNodeEditor/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[0mCMake Deprecation Warning at test/CMakeLists.txt:1 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/QtNodeEditor/src/ConnectionStyle.cpp:[m[K In member function ‘[01m[KQColor QtNodes::ConnectionStyle::[01;32m[KnormalColor[m[K(QString) const[m[K’:
+[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/QtNodeEditor/src/ConnectionStyle.cpp:169:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K qsrand[m[K(uint)[m[K’ is deprecated: use QRandomGenerator instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  169 |   [01;35m[Kqsrand(hash)[m[K;
+      |   [01;35m[K~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QColor:1[m[K,
+                 from [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/QtNodeEditor/include/nodes/internal/ConnectionStyle.hpp:3[m[K,
+                 from [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/QtNodeEditor/src/ConnectionStyle.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:1279:81:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1279 | Q_CORE_EXPORT QT_DEPRECATED_VERSION_X_5_15("use QRandomGenerator instead") void [01;36m[Kqsrand[m[K(uint seed);
+      |                                                                                 [01;36m[K^~~~~~[m[K
+[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/QtNodeEditor/src/ConnectionStyle.cpp:170:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint[01;32m[K qrand[m[K()[m[K’ is deprecated: use QRandomGenerator instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  170 |   std::size_t hue = [01;35m[Kqrand()[m[K % hue_range;
+      |                     [01;35m[K~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:1280:80:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1280 | Q_CORE_EXPORT QT_DEPRECATED_VERSION_X_5_15("use QRandomGenerator instead") int [01;36m[Kqrand[m[K();
+      |                                                                                [01;36m[K^~~~~[m[K
+[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/QtNodeEditor/src/NodeGeometry.cpp:[m[K In member function ‘[01m[Kunsigned int QtNodes::NodeGeometry::[01;32m[KportWidth[m[K(QtNodes::PortType) const[m[K’:
+[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/QtNodeEditor/src/NodeGeometry.cpp:286:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QFontMetrics::[01;32m[Kwidth[m[K(const QString&, int) const[m[K’ is deprecated: Use QFontMetrics::horizontalAdvance [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  286 |     width = std::max(unsigned([01;35m[K_fontMetrics.width(name)[m[K), width);
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QFontMetrics:1[m[K,
+                 from [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/QtNodeEditor/include/nodes/internal/NodeGeometry.hpp:6[m[K,
+                 from [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/QtNodeEditor/src/NodeGeometry.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h:106:9:[m[K [01;36m[Knote: [m[Kdeclared here
+  106 |     int [01;36m[Kwidth[m[K(const QString &, int len = -1) const;
+      |         [01;36m[K^~~~~[m[K
+[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/sidepanel_editor.cpp:[m[K In member function ‘[01m[Kvoid SidepanelEditor::[01;32m[Kon_buttonUpload_clicked[m[K()[m[K’:
+[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/sidepanel_editor.cpp:302:38:[m[K [01;35m[Kwarning: [m[K‘[01m[KQTextStream& QTextStreamFunctions::[01;32m[Kendl[m[K(QTextStream&)[m[K’ is deprecated: Use Qt::endl [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  302 |         stream << doc.toString(4) << [01;35m[Kendl[m[K;
+      |                                      [01;35m[K^~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:49[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborcommon.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborvalue.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h:46[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject:1[m[K,
+                 from [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/./QtNodeEditor/include/nodes/internal/Node.hpp:7[m[K,
+                 from [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/./QtNodeEditor/include/nodes/Node:1[m[K,
+                 from [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/bt_editor_base.h:9[m[K,
+                 from [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/XML_utilities.hpp:5[m[K,
+                 from [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/sidepanel_editor.h:8[m[K,
+                 from [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/sidepanel_editor.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:293:75:[m[K [01;36m[Knote: [m[Kdeclared here
+  293 | CATED_VERSION_X(5, 15, "Use Qt::endl") QTextStream &[01;36m[Kendl[m[K(QTextStream &s);
+      |                                                     [01;36m[K^~~~[m[K
+
+[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/sidepanel_replay.cpp:[m[K In member function ‘[01m[Kvoid SidepanelReplay::[01;32m[KupdateTableModel[m[K(const AbsBehaviorTree&)[m[K’:
+[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/sidepanel_replay.cpp:106:30:[m[K [01;35m[Kwarning: [m[K‘[01m[KQString& QString::[01;32m[Ksprintf[m[K(const char*, ...)[m[K’ is deprecated: Use asprintf(), arg() or QTextStream instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  106 |             [01;35m[Ktimestamp.sprintf("%.3f", trans.timestamp - first_timestamp)[m[K;
+      |             [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:47[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame:1[m[K,
+                 from [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/sidepanel_replay.h:5[m[K,
+                 from [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/sidepanel_replay.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:390:14:[m[K [01;36m[Knote: [m[Kdeclared here
+  390 |     QString &[01;36m[Ksprintf[m[K(const char *format, ...) Q_ATTRIBUTE_FORMAT_PRINTF(2, 3);
+      |              [01;36m[K^~~~~~~[m[K
+[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/sidepanel_replay.cpp:109:30:[m[K [01;35m[Kwarning: [m[K‘[01m[KQString& QString::[01;32m[Ksprintf[m[K(const char*, ...)[m[K’ is deprecated: Use asprintf(), arg() or QTextStream instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  109 |             [01;35m[Ktimestamp.sprintf("absolute time: %.3f", trans.timestamp)[m[K;
+      |             [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:390:14:[m[K [01;36m[Knote: [m[Kdeclared here
+  390 |     QString &[01;36m[Ksprintf[m[K(const char *format, ...) Q_ATTRIBUTE_FORMAT_PRINTF(2, 3);
+      |              [01;36m[K^~~~~~~[m[K
+[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/sidepanel_monitor.cpp:[m[K In member function ‘[01m[Kbool SidepanelMonitor::[01;32m[KgetTreeFromServer[m[K()[m[K’:
+[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/sidepanel_monitor.cpp:147:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid zmq::detail::socket_base::[01;32m[Ksetsockopt[m[K(int, const void*, size_t)[m[K’ is deprecated: from 4.7.0, use `set` taking option from zmq::sockopt [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  147 |         [01;35m[Kzmq_client.setsockopt(ZMQ_RCVTIMEO, &_load_tree_timeout_ms, sizeof(int) )[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/sidepanel_monitor.h:5[m[K,
+                 from [01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/sidepanel_monitor.cpp:1[m[K:
+[01m[K/usr/include/zmq.hpp:1741:10:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1741 |     void [01;36m[Ksetsockopt[m[K(int option_, const void *optval_, size_t optvallen_)
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/sidepanel_monitor.cpp:[m[K In member function ‘[01m[Kvoid SidepanelMonitor::[01;32m[Kon_Connect[m[K()[m[K’:
+[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/sidepanel_monitor.cpp:239:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid zmq::detail::socket_base::[01;32m[Ksetsockopt[m[K(int, const void*, size_t)[m[K’ is deprecated: from 4.7.0, use `set` taking option from zmq::sockopt [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  239 |                 [01;35m[K_zmq_subscriber.setsockopt(ZMQ_SUBSCRIBE, "", 0)[m[K;
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/zmq.hpp:1741:10:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1741 |     void [01;36m[Ksetsockopt[m[K(int option_, const void *optval_, size_t optvallen_)
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/edmund-munene/Documents/Programming-language-basics/Linux/Robotics/AConciseIntroductiontoRobotProgrammingwithROS2/bookros2_ws/src/ThirdParty/Groot/bt_editor/sidepanel_monitor.cpp:240:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid zmq::detail::socket_base::[01;32m[Ksetsockopt[m[K(int, const void*, size_t)[m[K’ is deprecated: from 4.7.0, use `set` taking option from zmq::sockopt [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  240 |                 [01;35m[K_zmq_subscriber.setsockopt(ZMQ_RCVTIMEO, &timeout_ms, sizeof(int) )[m[K;
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/zmq.hpp:1741:10:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1741 |     void [01;36m[Ksetsockopt[m[K(int option_, const void *optval_, size_t optvallen_)
+      |          [01;36m[K^~~~~~~~~~[m[K
